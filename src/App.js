@@ -1,12 +1,10 @@
-import React from 'react';
-import Posts from './components/Post';
-
-const App = () => {
+import React from "react";
+import DisplayAllPosts from './components/DisplayAllPosts'
+const App = ( ) => {
   return (
     <div>
-      <Posts />
+      <DisplayAllPosts />
     </div>
   );
-}
-
+};
 export default App;
